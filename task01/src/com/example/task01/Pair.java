@@ -25,9 +25,9 @@ public class Pair<T, U> {
     }
 
     public void ifPresent(BiConsumer<? super T, ? super U> action) {
-        if (first != null && second != null) {
+        //if (first != null && second != null) {
             action.accept(first, second);
-        }
+        //}
     }
 
     @Override
